@@ -4,8 +4,8 @@ import Axios from 'axios';
 import {Message} from 'element-ui';
 import Bus from '~/plugins/bus';
 
-// const baseUrl = 'https://webapi.coinmarket.xyz'; //本地2
-const baseUrl = 'http://webapidev.coinmarket.xyz'; //本地2
+const baseUrl = 'https://webapi.coinmarket.xyz'; //本地2
+// const baseUrl = 'http://webapidev.coinmarket.xyz'; //本地2
 
 const axios = Axios.create(
   {
