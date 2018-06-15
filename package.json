@@ -1,0 +1,52 @@
+{
+  "name": "coin-market-front",
+  "version": "1.0.0",
+  "description": "CoinMarket 网站前端",
+  "author": "Mutrix <yuquanwang1990@icloud.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build && npm start",
+    "start": "NODE_ENV=production PORT=3000 nuxt start",
+    "start_pm": "NODE_ENV=production pm2 start ./node_modules/nuxt/bin/nuxt",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "di18n-translate": "0.0.9",
+    "easyscroll": "^1.0.1",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.2.1",
+    "gulp-sass": "^3.2.0",
+    "js-base64": "^2.4.3",
+    "js-md5": "^0.7.3",
+    "nuxt": "^1.0.0",
+    "qrcode": "^1.2.0",
+    "vue-clipboard2": "^0.1.0",
+    "vue-resource": "^1.5.0",
+    "vue2-scrollbar": "0.0.3",
+    "vuebar": "0.0.18",
+    "vuex-persistedstate": "^2.5.1",
+    "weixin-js-sdk": "^1.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "vue-cli": "^2.9.3",
+    "vue-happy-scroll": "^2.0.1",
+    "vue-i18n": "^6.1.3"
+  }
+}

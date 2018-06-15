@@ -1,0 +1,21 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+
+# IDE or OS
+.vscode
+.DS_Store
+.idea/
+
+# directories
+supports/
+*.zip

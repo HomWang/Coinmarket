@@ -1,0 +1,42 @@
+$fontStack: Helvetica, sans-serif;
+
+$primaryColor: #333333;
+$primaryFontColor: #d8d8d8;
+$goldenColor: #525f85;
+$darkColor: #25272e;
+$darkBlue: #3366cc;
+
+$TextRedColor: #e54343;
+$TextGreenColor: #20852c;
+$TextYellowColor: #ffc200;
+$TextBlackColor: #1C1F2A;
+
+$bgColorLighter: #333;
+$bgColor: #16130f;
+$coinPageLineColor: #2e323e;
+
+$minWidth: 1240px;
+$iconMargin: 8px;
+$primaryFontSize: 14px;
+$BigFont: 36px;
+
+$unselectColor: #666;
+$selectedColor: #30302f;
+$greenColor: #4e855a;
+$redColor: #a5444a;
+
+body {
+  font-family: $fontStack;
+  color: $primaryFontColor;
+  background-color: $primaryColor;
+}
+
+i {
+  margin: 0 8px 0 0;
+}
+
+.cm-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
