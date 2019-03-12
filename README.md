@@ -1,6 +1,7 @@
 # coin-market-front
 
-> CoinMarket 网站前端
+> CoinMarket网站前端
+- 包含老K.线图
 
 ## Build Setup
 
