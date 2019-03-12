@@ -1,7 +1,8 @@
 # coin-market-front
 
 > CoinMarket网站前端
-- 包含老K.线图
+- 包含jq的K线图
+- 目前线上环境以下线
 
 ## Build Setup
 
